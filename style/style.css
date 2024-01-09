@@ -160,6 +160,12 @@ body {
   border-radius: 8px;
   margin-top: 20px;
 }
+.btn_2:hover {
+  background-color: #070211;
+  color: white;
+  cursor: pointer;
+}
+
 .event-title {
   color: #070211;
   text-align: center;
@@ -376,6 +382,11 @@ input[type="email"] {
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 0 30px 30px 0;
+}
+.form-btn:hover {
+  background-color: #070211;
+  color: white;
+  cursor: pointer;
 }
 
 /* footer section */
