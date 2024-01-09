@@ -232,21 +232,38 @@ body {
   height: 150px;
 }
 
-/* holiday section css */
-.holiday-content {
-  text-align: center;
+/* Gift box css */
+section.gift-box-section {
+  width: 80%;
+  margin: 0 auto;
 }
-.holiday-images {
+.gift-wrap {
   display: flex;
+  flex-direction: column;
 }
-.holiday-cl-one {
-  width: 58%;
+.gift-wrap .gift-top {
+  display: flex;
+  justify-content: space-between;
 }
-.holiday-cl-two {
-  width: 38%;
+.gift-top .box-image {
+  margin-bottom: -137px;
+  z-index: 90;
 }
-.holiday-cl-three {
-  width: 100%;
+.gift-wrap .girl-image {
+  position: relative;
+}
+.gift-wrap .gift-discount {
+  position: absolute;
+  top: 17%;
+  left: -24%;
+  width: 200px;
+}
+
+.gift-bottom {
+  margin-top: -99px;
+}
+.gift-box-section {
+  padding: 60px 010px;
 }
 
 /* gallery images css */
