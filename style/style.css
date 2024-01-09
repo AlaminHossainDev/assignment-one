@@ -251,6 +251,7 @@ section.gift-box-section {
 }
 .gift-wrap .girl-image {
   position: relative;
+  z-index: -1;
 }
 .gift-wrap .gift-discount {
   position: absolute;
